@@ -30,7 +30,7 @@ const getFunctionArn = async (functionName) => {
     }
   };
   
-  module.exports.warmupfunction = async (event) => {
+  const warmupfunction = async (event) => {
     try {
       console.log("Received SQS Event:", JSON.stringify(event));
   
@@ -74,6 +74,6 @@ const getFunctionArn = async (functionName) => {
   
 
   module.exports = {
-    warmupFunction,
+    warmupfunction,
   };
   
