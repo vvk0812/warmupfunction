@@ -1,3 +1,10 @@
+
+const cloudwatchlogs = new AWS.CloudWatchLogs();
+const lambda = new AWS.Lambda();
+const AWS = require('aws-sdk');
+
+
+
 // Function to fetch the ARN of a Lambda function
 const getFunctionArn = async (functionName) => {
     try {
