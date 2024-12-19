@@ -1,7 +1,7 @@
-
+const AWS = require('aws-sdk');
 const cloudwatchlogs = new AWS.CloudWatchLogs();
 const lambda = new AWS.Lambda();
-const AWS = require('aws-sdk');
+
 
 
 
